@@ -38,7 +38,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String token = "Nzk1NTQxOTkxNjE0MDU0NDEz.X_K4Nw.bezhMb_P_Qqaj4goaEnk1zV8mUk";
+        String token = "";
 
         DiscordApi api =  new DiscordApiBuilder().setToken(token).setAllIntents().login().join();
 
